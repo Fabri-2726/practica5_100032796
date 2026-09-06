@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica 5 - Introducción a CSS</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        p {
+            color: #444444;
+        }
+    </style>
+</head>
+<body>
+    <header id="cabecera-principal">
+        <h1 id="titulo-pagina">J. Robert Oppenheimer</h1>
+        <nav>
+            <a href="#biografia" class="boton-enlace">Biografía</a>
+            <a href="#aportaciones" class="boton-enlace">Aportaciones</a>
+            <a href="#bibliografia" class="boton-enlace">Bibliografía</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="biografia">
+            <h2>Biografía Breve</h2>
+            <p class="texto-destacado">J. Robert Oppenheimer fue un físico teórico estadounidense y director del Laboratorio de Los Álamos.</p>
+            <p>Nació el 22 de abril de 1904 en Nueva York y es conocido históricamente como el "padre de la bomba atómica".</p>
+
+            <h3>Datos Clave</h3>
+            <ul>
+                <li class="tarjeta-info">Lideró el Proyecto Manhattan durante la Segunda Guerra Mundial.</li>
+                <li class="tarjeta-info">Supervisó la prueba Trinity, la primera detonación nuclear de la historia.</li>
+                <li class="tarjeta-info">Realizó investigaciones fundamentales en mecánica cuántica y astrofísica.</li>
+            </ul>
+        </section>
+
+        <section id="aportaciones">
+            <h2>Principales Aportaciones</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Proyecto</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1942</td>
+                        <td>Proyecto Manhattan</td>
+                        <td>Dirección científica para el desarrollo de las primeras armas nucleares.</td>
+                    </tr>
+                    <tr>
+                        <td>1939</td>
+                        <td>Colapso gravitacional</td>
+                        <td>Trabajos teóricos pioneros que predijeron la existencia de los agujeros negros.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <aside>
+            <h3>Dato Curioso</h3>
+            <p style="color: #8B0000; font-weight: bold; background-color: #FFB6C1; padding: 10px;">
+                Oppenheimer dominaba varios idiomas y aprendió sánscrito para poder leer el Bhagavad Gita en su idioma original.
+            </p>
+        </aside>
+
+        <section id="bibliografia">
+            <h2>Bibliografía</h2>
+            <ul>
+                <li class="tarjeta-info">Wikipedia. (s.f.). J. Robert Oppenheimer. Recuperado de: https://es.wikipedia.org/wiki/J._Robert_Oppenheimer</li>
+                <li class="tarjeta-info">Biografías y Vidas. (s.f.). Robert Oppenheimer. Recuperado de: https://www.biografiasyvidas.com/biografia/o/oppenheimer.htm</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="pie-pagina">
+        <p>Fernando Fabricio Rodríguez López &mdash; LSC UNACH &mdash; Práctica 5 &mdash; 2026</p>
+    </footer>
+</body>
+</html>

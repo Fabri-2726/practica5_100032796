@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+#cabecera-principal {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+#titulo-pagina {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+#pie-pagina {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.texto-destacado {
+    background-color: #e0f7fa;
+    border-left: 4px solid #009688;
+    padding: 10px;
+    font-weight: bold;
+    color: #004d40;
+}
+
+.tarjeta-info {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.boton-enlace {
+    display: inline-block;
+    background-color: #009688;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+nav a {
+    font-size: 14px;
+}
+
+table th, table td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #eeeeee;
+}
